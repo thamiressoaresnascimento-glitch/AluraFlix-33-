@@ -1,0 +1,27 @@
+body{
+background-color: rgb(6, 6, 6);
+color:red;
+font-family: sans-serif;
+margin: 0px;
+}
+h1{
+
+    color:floralwhite;
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+}
+header{
+    border-bottom: solid 3x crimson;
+    margin: 2px;
+    padding: 10px;
+color:aliceblue;
+}
+.chamada{
+    background:rgb(118, 107, 107);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display:flex;
+    justify-content: center;
+}
