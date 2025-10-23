@@ -31,12 +31,21 @@ color:aliceblue;
 img{
     height: 200px;
 }
-.categoria-videos{
+.categoria-video {
     display:flex;
-    overflow-x: auto;
+    overflow-x: auto; 
     gap:15px;
-
+    padding: 20px;
+    scroll-behavior: smooth;
 }
+.categoria-video::-webkit-scrollbar{
+    height: 8px;
+}
+.categoria-video::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius:4px;
+}
+
 .categoria{
     padding: left 20px;
     padding: right 20px;
